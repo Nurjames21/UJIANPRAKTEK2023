@@ -1,0 +1,25 @@
+#include <cstdlib>
+#include <iostream>
+using namespace std;
+
+float fpersamaan1(int a,int b,int c){
+    float hasil;
+    hasil = (4*a*b)/(7*c);
+    return hasil;
+}
+int main (){
+    int a,b,c;
+    float hasil;
+    cout<<"==================="<<endl;
+    cout<<"#Praktik MI 2023"<<endl<<endl;;
+    cout<<"Masukan Nilai A :";
+    cin>>a;
+    cout<<"Masukan Nilai B :";
+    cin>>b;
+    cout<<"Masukan Nilai C :";
+    cin>>c;
+    hasil = fpersamaan1(a,b,c);
+    cout<<"Hasil Persamaan 1 = "<<hasil<<endl<<endl;  
+    system("pause");
+    return 0;  
+}
